@@ -8,6 +8,7 @@ Sell Tickets to Visitors
 folder 1 = 1 class
 folder 2 = 2 classes
 folder 3 = 3 classes (Visitor, Ticket, TickerTracker)
+Folder 4 = react implementation
 
 cd + folder-name
 node main.js

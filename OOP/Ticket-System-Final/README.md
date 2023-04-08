@@ -5,3 +5,5 @@ Each class responsible for its own specific functionality.
 
 cd Ticket-System-Final
 node main.js
+
+cd ..

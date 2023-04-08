@@ -13,4 +13,4 @@ Folder 4 = react implementation
 cd + folder-name
 node main.js
 
-cd .. to get to root repository
+cd .. to get to root folder

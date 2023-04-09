@@ -1,3 +1,7 @@
+/**
+ * Simple examples of closures
+ */
+
 const a = 5;
 
 function outer () {

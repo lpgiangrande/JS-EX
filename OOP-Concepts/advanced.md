@@ -6,6 +6,42 @@ Composition is the practice of **creating complex objects by combining simpler o
 
 Polymorphism allows objects of different types to be used interchangeably. In JavaScript, this is achieved through the use of interfaces, which are essentially contracts that specify what methods an object should have.
 
+```javascript
+// Animal base class
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a sound.`);
+  }
+}
+
+// Dog subclass that extends Animal
+class Dog extends Animal {
+  speak() {
+    console.log(`${this.name} barks.`);
+  }
+}
+
+// Cat subclass that extends Animal
+class Cat extends Animal {
+  speak() {
+    console.log(`${this.name} meows.`);
+  }
+}
+
+// Creating animal objects and calling their speak() methods
+const animal = new Animal("Generic animal");
+const dog = new Dog("Fido");
+const cat = new Cat("Fluffy");
+
+animal.speak(); // Output: Generic animal makes a sound.
+dog.speak(); // Output: Fido barks.
+cat.speak(); // Output: Fluffy meows.
+```
+
 ## Mixins
 
 Mixins are a way of adding functionality to an object by copying properties and methods from another object. In JavaScript, mixins can be implemented using object composition and the Object.assign() method.

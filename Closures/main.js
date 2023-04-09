@@ -57,4 +57,4 @@ counter1(); // Outputs 1
 counter1(); // Outputs 2
 // first time, count = 1, so second time, count is calculated with initial value of 1, not 0
 counter2(); // Outputs 1
-counter2(); // Outputs 2
+counter2(); // Outputs *
